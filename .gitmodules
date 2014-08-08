@@ -1,0 +1,9 @@
+[submodule "saltcfg"]
+	path = saltcfg
+	url = git@github.com:fly/saltcfg.git
+[submodule "states"]
+	path = states
+	url = git@github.com:fly/states.git
+[submodule "pillars"]
+	path = pillars
+	url = git@github.com:fly/pillars.git
