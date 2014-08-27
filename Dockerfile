@@ -1,4 +1,4 @@
-FROM dock0/service
+FROM docku/base
 MAINTAINER Jon Chen <bsd@voltaire.sh>
 EXPOSE 4505 4506
 
