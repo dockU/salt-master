@@ -5,7 +5,7 @@ EXPOSE 4505 4506
 RUN pacman -Syu --needed --noconfirm salt
 
 ADD install_salt.sh /tmp/
-RUN /tmp/install_salt.sh -P git v2014.7.0
+RUN /tmp/install_salt.sh -X -M -n -D -L -U -P git v2014.7.0
 
 ADD saltcfg/etc/salt /etc/salt
 ADD pillars /srv/pillar
