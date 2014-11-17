@@ -3447,7 +3447,6 @@ install_arch_linux_post() {
                 /usr/bin/systemctl enable salt-$fname.service > /dev/null 2>&1
             )
             sleep 0.1
-            /usr/bin/systemctl daemon-reload
             continue
         fi
 
@@ -3475,7 +3474,6 @@ install_arch_linux_git_post() {
                 /usr/bin/systemctl enable salt-${fname}.service > /dev/null 2>&1
             )
             sleep 0.1
-            /usr/bin/systemctl daemon-reload
             continue
         fi
 
